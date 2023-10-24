@@ -1,0 +1,313 @@
+
+.content-wrapper {
+ width : auto;
+ height : auto;
+ margin : 0;
+}
+.container-print {
+	width: 827px;
+	height: 583px;
+	margin: auto;
+	border:1px solid #666;
+    border-radius: 15px;
+}
+#a5 {
+  width: 827px;
+  height: 583px;
+  margin: 2px;
+}
+.gambar {
+  width: 314px;
+  height: 555px;
+  margin-top: -559px;
+  margin-left: 495px
+}
+.gambar img{
+  margin-top: 7px;
+  border: 1px solid #666;
+  border-radius: 15px;
+  display:block;
+}
+.gambar select {
+    display:block;
+    margin-top:510px;
+}
+.detail-pengiriman {
+  width: 482px;
+  height: 559px;
+  margin-top: -2px;
+  margin-left: -2px
+}
+.icon-pengiriman {
+	width:200px;
+	height:auto;
+    padding-top: 6px;
+    padding-left: 4px;
+}
+.icon-pengiriman img {
+	width:100%;
+}
+.kargo {
+	width:200px;
+	height:auto;
+    margin-top: -60px;
+    margin-left: 320px
+}
+.kargo img {
+	width:20%;
+}
+.kargo select {
+    width: 112px;
+    height: auto;
+    border-radius:5px;
+    margin-left: 56px;
+    display: block;
+    margin-top: -39px;
+    padding: 2px;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight:bold;
+    text-align:center;
+}
+.biaya {
+	width:200px;
+	height:auto;
+    margin-top: 5px;
+    margin-left: 323px
+}
+.biaya img {
+	width:20%;
+}
+.biaya input {
+    width: 104px;
+    height: auto;
+    display:block;
+    border:1px solid #666;
+    border-radius:5px;
+    margin-left: 53px;
+    margin-top: -36px;
+    padding: 3px;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+.biaya input placeholder {
+    font-size : 14px;
+    color:#bfbfbf;
+    font-weight:regular;
+}
+.nama-penerima {
+	width: 458px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top:-12px;
+    font-family:calibri;
+    font-size:16px;
+}
+.nama-penerima input{
+	width:379px;
+	font-weight: bold;
+	margin-top:20px;
+	padding: 4px;
+    border-radius: 5px;
+    border:1px solid #666;
+    font-size: 20px;
+    font-family: calibri;
+}
+.peringatan {
+	width:475px;
+	height:58px;
+	background-color:#4e4e4e;
+	border:2px solid black;
+	margin-left: 8px;
+    margin-top: -2px;
+    border-radius:7px;
+}
+.peringatan img {
+	width: 50px;
+    height: auto;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.peringatan ul {
+	font-size: 10px;
+    color: #ffffff;
+    margin-top: -51px;
+    margin-left: 44px;
+}
+.peringatan ul li {
+    line-height:15px;
+    font-family:calibri;
+    font-size:13px;
+}
+.keterangan {
+	width: 458px
+	height : auto;
+	margin-left: 8px;
+    padding-top: 33px;
+    font-family:calibri;
+    font-size:16px;
+}
+.keterangan input {
+    display: block;
+    height: 315px;
+    margin-bottom: 4px;
+    width: 285px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #666;
+}
+.keterangan textarea{
+	width:290px;
+	max-width:290px;
+    height:317px;
+	display: block;
+	font-weight: bold;
+	margin-top: 2px;
+    border-radius: 6px;
+    font-family:calibri;
+    font-size:20px;
+}
+.resep {
+	width: 159px;
+    height: 130px;
+    margin-top: -342px;
+    margin-left: 315px;
+    font-family:calibri;
+    font-size:16px;
+}
+.resep textarea{
+	width: 164px;
+    height: 80px;
+    font-size: 16px;
+    border-radius:6px;
+    font-weight:bold;
+    font-family:calibri;
+}
+.checklist {
+	width: 159px;
+    height: auto;
+    margin-left: 316px;
+    margin-top: -26px;
+    font-family:calibri;
+    font-weight:bold;
+    font-size:16px;
+}
+.checklist form {
+    margin-top:1px;
+}
+.checklist label{
+	font-size: 9px;
+	margin-right: 9px;
+}
+.pengirim {
+	width:159px;
+	height:auto;
+	margin-top: -2px;
+	margin-left: 316px;
+}
+.pengirim img{
+	width:95%;
+}
+.cetak {
+	width:150px;
+	height: auto;
+	margin:auto;
+}
+.cetak button {
+  width:200px;
+  color: #000000;
+  font-weight: bold;
+  background-color:lightgreen;
+  border-radius: 6px;
+  height: 40px;
+}
+#simpan-file {
+    width:200px;
+    height:auto;
+    margin-left: -220px;
+    margin-top: 20px;
+}
+#simpan-file button {
+    font-weight:bold;
+    font-style:regular;
+    font-size:14px;
+    background-color:#ee9090;
+}
+#simpan-file strong {
+    font-family:calibri;
+}
+.potrait-kanan {
+    display:block;
+    margin-left:220px;
+    margin-top:-40px;
+}
+.potrait-kanan button {
+    width: 200px;
+    color: #000000;
+    font-weight: bold;
+    background-color: #e1c04a;
+    border-radius: 6px;
+    height: 40px;
+}
+.potrait-kanan a {
+    color:#000;
+    font-weight:bold;
+}
+.sisip {
+    width:476px;
+    height: auto;
+    display: block;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.pilih-paket {
+    width:163px;
+    height: 22px;
+    display:block;
+    margin-top: 4px;
+    font-family:calibri;
+    font-size:18px;
+}
+.pilih-paket select{
+    width:163px;
+    height:24px;
+    border:1px solid #666;
+    border-radius:5px;
+    text-align: center;
+    font-weight: bold;
+    font-family:calibri;
+     font-size:18px;
+}
+.nomor-paket {
+    width:163px;
+    height:auto;
+    display:block;
+    margin-left: 312px;
+    margin-top: -24px;
+    font-size:18px;
+    font-weight: bold;
+    font-family:calibri;
+}
+.nomor-paket select{
+    border: 1px solid #666;
+    border-radius: 5px;
+    width:98px;
+    height: 22px;
+    font-weight: bold;
+    font-family:calibri;
+    font-size:15px;
+    margin-top: -21px;
+    margin-left: 68px;
+    text-align:center;
+}
+.nomor-paket input{
+    border: 1px solid #666;
+    border-radius: 5px;
+    width:60px;
+    height: 22px;
+    font-weight: bold;
+    font-family:calibri;
+    font-size:18px;
+}

@@ -1,0 +1,331 @@
+<!--
+ * ------------------------------------------------------------------------
+ * @Author & editor		: Deny Priyana <denypriyana.offcial@gmail.com>
+ * @Date       			: 01.2023
+ * @copyright  			: PT. Alkindi
+ * ------------------------------------------------------------------------
+ -->
+ .wrapper {
+	width:1438px;
+	height:auto;
+	margin:0;
+}
+.potrait {
+	width: 583px;
+	height: 827px;
+	margin-left: 0px;
+	margin-top: 10px;
+	border: 1px solid #666;
+	border-radius: 15px
+}
+.banner {
+	width:570px;
+	height: 321px;
+	display: block;
+	border:1px solid #666;
+	border-radius: 21px;
+	margin: auto;
+	margin-top:5px;
+}
+.banner img {
+	width:100%;
+}
+.data {
+	width:570px;
+	height:480px;
+	margin:auto;
+	margin-top:27px;
+}
+.top {
+	width:570px;
+	height:80px;
+	margin:auto;
+	margin-top:-21px;
+}
+.top-left {
+	width:100px;
+	height:auto;
+	text-align: left;
+}
+.top-left img{
+	width:180%;
+}
+.top-center {
+    width:135px;
+    height:80px;
+    display:block;
+    margin-top: -50px;
+    margin-left: 250px;
+}
+.paket {
+    width:135px;
+    height:38px;
+}
+.paket select {
+    width:135px;
+    height:26px;
+    border:1px solid #666;
+    border-radius:5px;
+    font-size:18px;
+    font-family:calibri;
+    font-weight:bold;
+    display:block;
+    margin-top: 5px;
+}
+.nomor-pk {
+    width:135px;
+    height:38px;
+    margin-top: 6px;
+    margin-left: -17px;
+    font-size:18px;
+    font-family:calibri;
+    font-weight:bold;
+}
+.nomor-pk select {
+    width: 85px;
+    height: 27px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size:15px;
+    font-family:calibri;
+    font-weight:bold;
+    display: block;
+    margin-top: -25px;
+    margin-left: 68px;
+}
+.nomor-pk input {
+    width: 63px;
+    height: 30px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size:18px;
+    font-family:calibri;
+    font-weight:bold;
+}
+.top-right {
+	width:173px;
+	height:80px;
+	display: block;
+	margin-top: -89px;
+    margin-left: auto;
+}
+.truck {
+	width:200px;
+	height: auto;
+	display: block;
+}
+.truck img {
+	width:20%;
+}
+.truck select {
+	width:112px;
+	height:auto;
+	border:1px solid #666;
+	border-radius:5px;
+	padding: 2px;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: -35px;
+    margin-left: 60px;
+}
+.price {
+	width:200px;
+	height:40px;
+	margin-top: 7px;
+}
+.price img {
+	width:20%;
+}
+.price input {
+    width: 107px;
+    height: 22px;
+	border:1px solid #666;
+	border-radius:5px;
+	padding: 2px;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: -35px;
+    margin-left: 60px;
+
+}
+.receiver {
+	width:570px;
+	height:40px;
+	margin-top:14px;
+	display: block;
+	font-family:calibri;
+	font-size: 18px;
+	font-weight: bold;
+}
+.receiver input {
+	width:496px;
+	height:auto;
+	border:1px solid #666;
+	border-radius:5px;
+	padding: 2px;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin-top: -24px;
+    margin-left: 68px;
+}
+.middle {
+	width:570px;
+	height:270px;
+	margin-top: -5px;
+	display: block;
+}
+.detail {
+	width:280px;
+	height:270px;
+	display: block;
+	font-family: calibri;
+    font-weight: bold;
+    font-size: 18px
+}
+.detail textarea {
+	width:270px;
+	height:237px;
+	display: block;
+	border-radius:5px;
+	font-family: calibri;
+    font-size: 17px;
+    font-weight: bold;
+}
+.obat {
+	width:130px;
+	height:270px;
+	display: block;
+	margin-top:-271px;
+	margin-left:283px;
+	font-family: calibri;
+    font-size: 18px;
+}
+.obat textarea {
+	width:120px;
+	height:70px;
+	display: block;
+	margin-top:1px;
+	border-radius:5px;
+	font-family: calibri;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.cek {
+	width:160px;
+	height:135px;
+	display: block;
+	font-size: 18px;
+	font-family: calibri;
+	margin-top: -269px;
+    margin-left: 430px;
+}
+.cek form {
+	margin-top:-1px;
+}
+.cek label {
+	font-family: calibri;
+    font-size: 10px;
+    font-weight: bold;
+}
+.alamat-pengirim {
+	width:160px;
+	height:135px;
+	display: block;
+	margin-left: 285px;
+	margin-top: -3px;
+}
+.alamat-pengirim img {
+	width:173%;
+}
+.disclaimer {
+	width:568px;
+	height:76px;
+	margin-top: 8px;
+	border:2px solid black;
+	display: block;
+	background-color: #666;
+    border-radius: 7px;
+}
+.disclaimer img {
+	width:65px;
+	height:65px;
+	padding:8px;
+}
+.disclaimer ul{
+	color:#ffffff;
+	display: block;
+	margin-top:-73px;
+	margin-left:66px;
+	line-height: 18px;
+}
+.disclaimer li {
+	font-family: calibri;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.tombol {
+	width:150px;
+	height: 150px;
+	display: block;
+	margin-top: -480px;
+    margin-left: 650px;
+}
+.save-file {
+    width:200px;
+    height:auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.save-file button {
+    font-weight:bold;
+    font-style:regular;
+    font-size:14px;
+    background-color:#ee9090;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+.save-file strong {
+    font-family:calibri;
+}
+.print {
+	width:150px;
+
+}
+.print button {
+  width:150px;
+  color: #000000;
+  font-weight: bold;
+  background-color:lightgreen;
+  border-radius: 6px;
+  height: 40px;
+}
+.tampilan {
+	width:150px;
+	height:75px;
+	display: block;
+}
+.tampilan button {
+	width:150px;
+  	color: #000000;
+  	background-color:#e1c04a;
+  	border-radius: 6px;
+  	height: 40px;
+  	margin-top: 15px;
+    font-family: calibri;
+}
+.tampilan a {
+	color:#000;
+	font-weight: bold;
+}

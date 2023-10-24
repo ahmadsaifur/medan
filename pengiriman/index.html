@@ -1,0 +1,161 @@
+<!--
+ * ------------------------------------------------------------------------
+ * @Author & editor		: Deny Priyana <denypriyana.offcial@gmail.com>
+ * @Date       			: 01.2023
+ * @copyright  			: PT. Alkindi
+ * ------------------------------------------------------------------------
+ -->
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Selamat Datang Di Website PT Al Kindi Indonesia - Real Health Comes From Nature"/>
+	<title>Halaman Pengiriman Landscape</title>
+<link href="https://alkindikasir.com/pengiriman/pengiriman.css" rel="stylesheet">
+<link href="https://alkindikasir.com/pengiriman/print.css" rel="stylesheet" media="print">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js "></script>
+<script src="js/jsPDF/dist/jspdf.umd.js"></script>
+<script src="js/html2canvas.min.js"></script>
+<script src="~/js/jspdf.js"></script>
+<script src="jquery-1.8.3.min.js"></script>
+<script src="jquery.PrintArea.js"></script>
+
+<script>
+	(function($) {
+			// fungsi dijalankan setelah seluruh dokumen ditampilkan
+			$(document).ready(function(e) {
+				
+				// aksi ketika tombol cetak ditekan
+				$("#cetak").bind("click", function(event) {
+					$('#a5').printArea();
+				});
+			});
+	}) (jQuery);
+</script>
+<script>
+function refreshPage() {
+    window.location.reload();
+} 
+</script>
+</head>
+<body>
+<div class="content-wrapper">
+<div class="container-print">
+	<div id="a5">
+		<div class="detail-pengiriman">
+			<div class="icon-pengiriman">
+				<img src="http://alkindikasir.com/pengiriman/images/icon-penerima.png">
+			</div>
+			<div class="kargo">
+				<img src="http://alkindikasir.com/pengiriman/images/fast-delivery.png">
+				<label>
+					<select class='form-control input-sm' style='cursor: pointer;'>
+						<option value='selected'>--- Pilih --</option>
+						<option value=''> </option>
+						<option value=''>JNE</option>
+						<option value=''>JNE YES</option>
+						<option value=''>JNE REG</option>
+						<option value=''>TIKI</option>
+						<option value=''>TIKI ONS</option>
+						<option value=''>TIKI REG</option>
+						<option value=''>JNT</option>
+						<option value=''>Lion Parcel</option>
+					</select>
+				</label>
+			</div>
+			<div class="biaya">
+				<img src="http://alkindikasir.com/pengiriman/images/money.png">
+				<input type="text" name="biaya" placeholder="Tulis Harga">
+			</div>
+			<div class="sisip">
+    			<div class="pilih-paket">
+        			<select class='pilih-paket' style='cursor: pointer;'>
+        				<option value='selected'>--- Pilih Paket--</option>
+        				<option value=''>Paket Online</option>
+        				<option value=''>Paket Pasien</option>
+        			</select>
+        		</div>
+        		<div class="nomor-paket">
+        		    <strong>Cabang :</strong>
+        		    <select class='pilih-paket' style='cursor: pointer;'>
+        				<option value='selected'>--- Pilih--</option>
+        				<option value=''>Depok</option>
+        				<option value=''>Medan</option>
+        				<option value=''>Surabaya</option>
+        			</select>
+        		 <!--   <strong>Nomor :</strong>-->
+        			<!--<input type="number" value="" placeholder="">-->
+        		</div>
+        	</div>
+			<div class="nama-penerima">
+				<strong>NAMA : </strong><input type="text" name="nama-penerima" placeholder="Tulis Nama Penerima"> 
+			</div>
+			<div class="keterangan">
+				<strong>KETERANGAN : </strong><textarea></textarea>
+			</div>
+			<div class="resep">
+				<strong>OBAT : </strong>
+				<textarea></textarea>
+			</div>
+			<div class="checklist">
+				<strong>CHECKLIST : </strong>
+				<form>
+					  <input type="checkbox">
+					  <label style="font-size:10px;"> KUITANSI</label>
+					  <br>
+					  <input type="checkbox">
+					  <label style="font-size:10px;"> PANTANGAN</label>
+					  <br>
+					  <input type="checkbox">
+					  <label style="font-size:10px;"> JADWAL MINUM OBAT</label>
+					  <br>
+					  <input type="checkbox">
+					  <label style="font-size:10px;"> BROSUR</label>
+					  <br>
+					  <input type="checkbox">
+					  <label style="font-size:10px;"> PRODUK</label>
+				</form>
+			</div>
+			<div class="pengirim">
+				<img src="http://alkindikasir.com/medan/pengiriman/images/Alkindi-Medan-Landscape.jpg">
+			</div>
+			<div class="peringatan">
+				<img src="http://alkindikasir.com/pengiriman/images/warning.png">
+				<ul>
+					<li><strong>PAKET INI SUDAH DILAKUKAN PENGECEKAN SEBELUMNYA</strong></li>
+					<li><strong>WAJIB VIDEOKAN PADA SAAT MEMBUKA PAKET</strong></li>
+					<li><strong>KOMPLAIN TIDAK BERLAKU JIKA LEBIH DARI 2 HARI DAN TANPA VIDEO</strong></li>
+				</ul>
+			</div>
+		</div>
+		<div class="gambar">
+		    <img src="http://alkindikasir.com/pengiriman/images/(Story) promo awal tahun alkindi.jpg" width="102%">
+		</div>
+	</div>
+</div>
+<br>
+	<div class="cetak">
+		<div id="simpan-file">
+		    <button id='save' style='cursor: pointer;' onclick='window.print()'>
+		        <i class="fa fa-floppy-o"><strong> Simpan & Cetak</strong></i>
+		    </button>
+		</div>
+		<div class='col-sm-4' style='padding-right: 0px; margin-top: -40px;'>
+			<button type='submit' class='btn btn-warning btn-block' id='cetak' style='cursor: pointer;' onclick='refreshPage()'>
+				<i class='fa fa-print'></i> Refresh Halaman
+			</button>
+		</div>
+		<div class='potrait-kanan'>
+		    <button>
+			    <a href='https://alkindikasir.com/medan/pengiriman/potrait/index.html' target="_blank">Tampilan Potrait</a>
+			</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>

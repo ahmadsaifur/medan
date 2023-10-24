@@ -1,0 +1,175 @@
+<!--
+ * ------------------------------------------------------------------------
+ * @Author & editor		: Deny Priyana <denypriyana.offcial@gmail.com>
+ * @Date       			: 01.2023
+ * @copyright  			: PT. Alkindi
+ * ------------------------------------------------------------------------
+ -->
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Selamat Datang Di Website PT Al Kindi Indonesia - Real Health Comes From Nature"/>
+	<title>Halaman Pengiriman Potrait</title>
+<link href="https://alkindikasir.com/pengiriman/potrait/potrait.css" rel="stylesheet">
+<link href="https://alkindikasir.com/pengiriman/potrait/print.css" rel="stylesheet" media="print">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>	
+<script src="jquery-1.8.3.min.js"></script>
+<script src="jquery.PrintArea.js"></script>
+
+</head>
+<body>
+<div class="wrapper">
+	<div class="potrait">
+		<div class="banner">
+			<img src="https://alkindikasir.com/pengiriman/images/(Story)-promo-awal-tahun-alkindi-rotate.png">
+		</div>
+		<div class="data">
+			<div class="top">
+				<div class="top-left">
+					<img src="https://alkindikasir.com/pengiriman/images/icon-penerima.png">
+				</div>
+				<div class="top-center">
+				    <div class="paket">
+				        <select class="paket" style="cursor: pointer;">
+                            <option value="selected">--- Pilih Paket--</option>
+                            <option value="">Paket Online</option>
+                            <option value="">Paket Pasien</option>
+                        </select>
+				    </div>
+				    <div class="nomor-pk">
+				        <strong>Cabang :</strong>
+				        <select class="nomor-pk" style="cursor: pointer;">
+                            <option value="selected">--- Pilih ---</option>
+                            <option value="">Depok</option>
+                            <option value="">Medan</option>
+                            <option value="">Surabaya</option>
+                        </select>
+				        <!--<strong>Nomor :</strong>-->
+				        <!--<input type="number" class="nomor-pk" placeholder="">-->
+				    </div>
+				</div>
+				<div class="top-right">
+					<div class="truck">
+						<img src="https://alkindikasir.com/pengiriman/images/fast-delivery.png">
+						<select class='truck' style='cursor: pointer;'>
+						<option value='selected'>--- Pilih --</option>
+						<option value=''> </option>
+						<option value=''>JNE</option>
+						<option value=''>JNE YES</option>
+						<option value=''>JNE REG</option>
+						<option value=''>TIKI</option>
+						<option value=''>TIKI ONS</option>
+						<option value=''>TIKI REG</option>
+						<option value=''>JNT</option>
+						<option value=''>Lion Parcel</option>
+					</select>
+					</div>
+					<div class="price">
+						<img src="https://alkindikasir.com/pengiriman/images/money.png">
+						<input type="text" name="biaya" placeholder="Tulis Harga">
+					</div>
+				</div>
+			</div>
+			<div class="receiver">
+				<strong>NAMA :</strong>
+				<input type="name" name="receiver" placeholder="Tulis nama penerima">
+			</div>
+			<div class="middle">
+				<div class="detail">
+					<strong>KETERANGAN : </strong>
+					<textarea></textarea>
+				</div>
+				<div class="obat">
+					<strong>OBAT : </strong>
+					<textarea></textarea>
+				</div>
+				<div class="cek">
+					<strong>CHECKLIST : </strong>
+					<form>
+					  <input type="checkbox">
+					  <label> KUITANSI</label>
+					  <br>
+					  <input type="checkbox">
+					  <label> PANTANGAN</label>
+					  <br>
+					  <input type="checkbox">
+					  <label> JADWAL MINUM OBAT</label>
+					  <br>
+					  <input type="checkbox">
+					  <label > BROSUR</label>
+					  <br>
+					  <input type="checkbox">
+					  <label> PRODUK</label>
+				</form>
+				</div>
+				<div class="alamat-pengirim">
+					<img src="http://alkindikasir.com/medan/pengiriman/images/Alkindi-Medan-Potrait.png">
+				</div>
+			</div>
+			<div class="disclaimer">
+				<img src="http://alkindikasir.com/pengiriman/images/warning.png">
+				<ul>
+					<li><strong>PAKET INI SUDAH DILAKUKAN PENGECEKAN SEBELUMNYA</strong></li>
+					<li><strong>WAJIB VIDEOKAN PADA SAAT MEMBUKA PAKET</strong></li>
+					<li><strong>KOMPLAIN TIDAK BERLAKU JIKA LEBIH DARI 2 HARI DAN TANPA VIDEO</strong></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="tombol">
+		<div class="save-file">
+		    <button type="submit" id="save" style="cursor:pointer;" onclick="window.print()">
+		        <i class="fa fa-floppy-o"><strong> Simpan & Cetak</strong></i>
+		    </button>
+		</div>
+		<div class="print">
+			<button type="submit" id="cetak" style="cursor: pointer;" onclick="refreshPage()">
+				<i class="fa fa-print"></i> Refresh Halaman
+			</button>
+		</div>
+		<div class="tampilan">
+			<button>
+				<a href="https://alkindikasir.com/medan/pengiriman/index.html" target="_blank">Tampilan Landscape</a>
+			</button>
+		</div>
+	</div>
+</div>
+</body>
+<script>
+window.jsPDF = window.jspdf.jsPDF;
+var docPDF = new jsPDF();
+function save(){
+var elementHTML = document.querySelector(".potrait");
+docPDF.html(elementHTML, {
+ callback: function(docPDF) {
+  docPDF.save('Pengiriman.pdf');
+ },
+ x: 1,
+ y: 1,
+ width: 162,
+ windowWidth: 650
+});
+}
+</script>
+<script>
+	(function($) {
+			// fungsi dijalankan setelah seluruh dokumen ditampilkan
+			$(document).ready(function(e) {
+				
+				// aksi ketika tombol cetak ditekan
+				$("#cetak").bind("click", function(event) {
+					$('.potrait').printArea();
+				});
+			});
+	}) (jQuery);
+</script>
+<script>
+function refreshPage() {
+    window.location.reload();
+} 
+</script>
+</html>

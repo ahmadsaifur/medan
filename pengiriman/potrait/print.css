@@ -1,0 +1,4 @@
+/* menyembunyikan tombol aksi */
+.tombol{
+	display: none;
+}
